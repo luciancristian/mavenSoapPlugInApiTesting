@@ -1,0 +1,64 @@
+<settings xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+	<localRepository>C:\Users\Kasguz\.m2\repository</localRepository>
+
+	
+
+	<!--<proxies>
+
+		<proxy>
+			<active>true</active>
+			<protocol>http</protocol>
+			<host></host>
+			<port>8080</port>
+			<username></username>
+			<password></password>
+			
+		</proxy>
+
+	</proxies>-->
+
+	<profiles>
+		<profile>
+			<id>repo-apitesting</id>
+			<repositories>
+			
+				<repository>
+					<id>soap.ui.repository</id>
+					<name>Soap UI</name>
+					<url>http://www.soapui.org/repository/maven2/</url>
+					<snapshots><enabled>false</enabled></snapshots>
+					<releases><enabled>true</enabled></releases>
+				</repository>
+				
+				
+				
+				
+
+			</repositories>
+			<pluginRepositories>
+				
+			
+				<pluginRepository>
+					<id>soap.ui.repository</id>
+					<name>Soap UI</name>
+					<url>http://www.soapui.org/repository/maven2/</url>
+					<snapshots><enabled>false</enabled></snapshots>
+					<releases><enabled>true</enabled></releases>
+				</pluginRepository> 
+
+
+			
+
+			</pluginRepositories>
+		</profile>
+		
+		
+	</profiles>
+    <activeProfiles>
+        <activeProfile>repo-apitesting</activeProfile>
+    </activeProfiles>
+</settings>
