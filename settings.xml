@@ -4,9 +4,6 @@
                       http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
 	<localRepository>C:\Users\Kasguz\.m2\repository</localRepository>
-
-	
-
 	<!--<proxies>
 
 		<proxy>
@@ -15,17 +12,13 @@
 			<host></host>
 			<port>8080</port>
 			<username></username>
-			<password></password>
-			
+         		<password></password>
 		</proxy>
-
 	</proxies>-->
-
 	<profiles>
 		<profile>
 			<id>repo-apitesting</id>
 			<repositories>
-			
 				<repository>
 					<id>soap.ui.repository</id>
 					<name>Soap UI</name>
@@ -33,15 +26,8 @@
 					<snapshots><enabled>false</enabled></snapshots>
 					<releases><enabled>true</enabled></releases>
 				</repository>
-				
-				
-				
-				
-
 			</repositories>
 			<pluginRepositories>
-				
-			
 				<pluginRepository>
 					<id>soap.ui.repository</id>
 					<name>Soap UI</name>
@@ -49,14 +35,8 @@
 					<snapshots><enabled>false</enabled></snapshots>
 					<releases><enabled>true</enabled></releases>
 				</pluginRepository> 
-
-
-			
-
 			</pluginRepositories>
 		</profile>
-		
-		
 	</profiles>
     <activeProfiles>
         <activeProfile>repo-apitesting</activeProfile>
