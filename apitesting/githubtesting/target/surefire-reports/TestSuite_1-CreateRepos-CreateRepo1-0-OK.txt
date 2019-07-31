@@ -1,0 +1,63 @@
+Status: OK
+Time Taken: 1077
+Size: 5209
+Timestamp: Wed Jul 31 22:39:30 EEST 2019
+TestStep: CreateRepo1
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: POST
+StatusCode: 201
+URL: https://api.github.com/user/repos
+
+---------------- Request ---------------------------
+Authorization: [Bearer ffea65b2da0e750c66b8624624d442adf34c1c15]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [197]
+Content-Type: [application/json]
+
+POST https://api.github.com/user/repos HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Bearer ffea65b2da0e750c66b8624624d442adf34c1c15
+Content-Type: application/json
+Content-Length: 197
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+
+---------------- Response --------------------------
+X-Accepted-OAuth-Scopes: [public_repo, repo]
+Server: [GitHub.com]
+Access-Control-Allow-Origin: [*]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4987]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+#status#: [HTTP/1.1 201 Created]
+Content-Length: [5209]
+X-XSS-Protection: [1; mode=block]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [EBC8:45945:53BBAB:68E68E:5D41EE73]
+Status: [201 Created]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1564605506]
+Date: [Wed, 31 Jul 2019 19:39:32 GMT]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: ["96ebe9bbf30eb4301956bc679e7a6a8b"]
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding]
+X-RateLimit-Limit: [5000]
+X-OAuth-Scopes: [public_repo, admin:org, delete_repo]
+Location: [https://api.github.com/repos/kasguzz2112/Repository1]
+
+{"id":199918304,"node_id":"MDEwOlJlcG9zaXRvcnkxOTk5MTgzMDQ=","name":"Repository1","full_name":"kasguzz2112/Repository1","private":false,"owner":{"login":"kasguzz2112","id":53450658,"node_id":"MDQ6VXNlcjUzNDUwNjU4","avatar_url":"https://avatars0.githubusercontent.com/u/53450658?v=4","gravatar_id":"","url":"https://api.github.com/users/kasguzz2112","html_url":"https://github.com/kasguzz2112","followers_url":"https://api.github.com/users/kasguzz2112/followers","following_url":"https://api.github.com/users/kasguzz2112/following{/other_user}","gists_url":"https://api.github.com/users/kasguzz2112/gists{/gist_id}","starred_url":"https://api.github.com/users/kasguzz2112/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kasguzz2112/subscriptions","organizations_url":"https://api.github.com/users/kasguzz2112/orgs","repos_url":"https://api.github.com/users/kasguzz2112/repos","events_url":"https://api.github.com/users/kasguzz2112/events{/privacy}","received_events_url":"https://api.github.com/users/kasguzz2112/received_events","type":"User","site_admin":false},"html_url":"https://github.com/kasguzz2112/Repository1","description":"This is your 1st repository","fork":false,"url":"https://api.github.com/repos/kasguzz2112/Repository1","forks_url":"https://api.github.com/repos/kasguzz2112/Repository1/forks","keys_url":"https://api.github.com/repos/kasguzz2112/Repository1/keys{/key_id}","collaborators_url":"https://api.github.com/repos/kasguzz2112/Repository1/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/kasguzz2112/Repository1/teams","hooks_url":"https://api.github.com/repos/kasguzz2112/Repository1/hooks","issue_events_url":"https://api.github.com/repos/kasguzz2112/Repository1/issues/events{/number}","events_url":"https://api.github.com/repos/kasguzz2112/Repository1/events","assignees_url":"https://api.github.com/repos/kasguzz2112/Repository1/assignees{/user}","branches_url":"https://api.github.com/repos/kasguzz2112/Repository1/branches{/branch}","tags_url":"https://api.github.com/repos/kasguzz2112/Repository1/tags","blobs_url":"https://api.github.com/repos/kasguzz2112/Repository1/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/kasguzz2112/Repository1/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/kasguzz2112/Repository1/git/refs{/sha}","trees_url":"https://api.github.com/repos/kasguzz2112/Repository1/git/trees{/sha}","statuses_url":"https://api.github.com/repos/kasguzz2112/Repository1/statuses/{sha}","languages_url":"https://api.github.com/repos/kasguzz2112/Repository1/languages","stargazers_url":"https://api.github.com/repos/kasguzz2112/Repository1/stargazers","contributors_url":"https://api.github.com/repos/kasguzz2112/Repository1/contributors","subscribers_url":"https://api.github.com/repos/kasguzz2112/Repository1/subscribers","subscription_url":"https://api.github.com/repos/kasguzz2112/Repository1/subscription","commits_url":"https://api.github.com/repos/kasguzz2112/Repository1/commits{/sha}","git_commits_url":"https://api.github.com/repos/kasguzz2112/Repository1/git/commits{/sha}","comments_url":"https://api.github.com/repos/kasguzz2112/Repository1/comments{/number}","issue_comment_url":"https://api.github.com/repos/kasguzz2112/Repository1/issues/comments{/number}","contents_url":"https://api.github.com/repos/kasguzz2112/Repository1/contents/{+path}","compare_url":"https://api.github.com/repos/kasguzz2112/Repository1/compare/{base}...{head}","merges_url":"https://api.github.com/repos/kasguzz2112/Repository1/merges","archive_url":"https://api.github.com/repos/kasguzz2112/Repository1/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/kasguzz2112/Repository1/downloads","issues_url":"https://api.github.com/repos/kasguzz2112/Repository1/issues{/number}","pulls_url":"https://api.github.com/repos/kasguzz2112/Repository1/pulls{/number}","milestones_url":"https://api.github.com/repos/kasguzz2112/Repository1/milestones{/number}","notifications_url":"https://api.github.com/repos/kasguzz2112/Repository1/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/kasguzz2112/Repository1/labels{/name}","releases_url":"https://api.github.com/repos/kasguzz2112/Repository1/releases{/id}","deployments_url":"https://api.github.com/repos/kasguzz2112/Repository1/deployments","created_at":"2019-07-31T19:39:31Z","updated_at":"2019-07-31T19:39:31Z","pushed_at":"2019-07-31T19:39:32Z","git_url":"git://github.com/kasguzz2112/Repository1.git","ssh_url":"git@github.com:kasguzz2112/Repository1.git","clone_url":"https://github.com/kasguzz2112/Repository1.git","svn_url":"https://github.com/kasguzz2112/Repository1","homepage":"https://github.com","size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"network_count":0,"subscribers_count":1}

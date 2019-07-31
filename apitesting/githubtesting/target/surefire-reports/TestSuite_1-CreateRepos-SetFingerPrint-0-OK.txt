@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 294
+Size: 0
+Timestamp: Wed Jul 31 22:39:29 EEST 2019
+TestStep: SetFingerPrint
+
+----------------- Messages ------------------------------

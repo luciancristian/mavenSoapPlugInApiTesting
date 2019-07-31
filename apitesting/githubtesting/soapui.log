@@ -1,0 +1,47 @@
+2019-07-31 22:39:28,386 WARN  [SoapUI] Missing folder [C:\app\testing\apitesting\githubtesting\ext] for external libraries
+2019-07-31 22:39:28,387 INFO  [DefaultSoapUICore] Creating new settings at [C:\Users\Kasguz\soapui-settings.xml]
+2019-07-31 22:39:29,032 INFO  [PluginManager] 0 plugins loaded in 2 ms
+2019-07-31 22:39:29,032 INFO  [DefaultSoapUICore] All plugins loaded
+2019-07-31 22:39:29,681 INFO  [WsdlProject] Loaded project from [file:/C:/app/testing/apitesting/githubtesting/src/test/resources/ApiTestingGitHub-soapui-project.xml]
+2019-07-31 22:39:29,685 INFO  [SoapUITestCaseRunner] Setting project property [gitUser] to [kasguzz2112]
+2019-07-31 22:39:29,685 INFO  [SoapUITestCaseRunner] Setting project property [gitPassword] to [Qwertyuiop1234%]
+2019-07-31 22:39:29,685 INFO  [SoapUITestCaseRunner] Setting project property [gitEndpoint] to [https://api.github.com]
+2019-07-31 22:39:29,686 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [GitApiTesting]
+2019-07-31 22:39:29,687 INFO  [SoapUITestCaseRunner] Running Project [GitApiTesting], runType = SEQUENTIAL
+2019-07-31 22:39:29,699 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CreateRepos]
+2019-07-31 22:39:29,715 INFO  [SoapUITestCaseRunner] running step [SetFingerPrint]
+2019-07-31 22:39:30,014 INFO  [SoapUITestCaseRunner] running step [GetStoreToken]
+2019-07-31 22:39:30,831 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes - 201] has status VALID
+2019-07-31 22:39:30,831 INFO  [SoapUITestCaseRunner] Assertion [GetStoreTokenFromJson] has status VALID
+2019-07-31 22:39:30,832 INFO  [SoapUITestCaseRunner] running step [CreateRepo1]
+2019-07-31 22:39:31,923 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:31,924 INFO  [SoapUITestCaseRunner] running step [CreateRepo2]
+2019-07-31 22:39:32,961 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:32,962 INFO  [SoapUITestCaseRunner] running step [CreateRepo3]
+2019-07-31 22:39:34,132 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:34,134 INFO  [SoapUITestCaseRunner] running step [GetRepos]
+2019-07-31 22:39:34,424 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:34,424 INFO  [SoapUITestCaseRunner] Assertion [ContainsRepo1] has status VALID
+2019-07-31 22:39:34,424 INFO  [SoapUITestCaseRunner] Assertion [ContainsRepo2] has status VALID
+2019-07-31 22:39:34,424 INFO  [SoapUITestCaseRunner] Assertion [ContainsRepo3] has status VALID
+2019-07-31 22:39:34,425 INFO  [SoapUITestCaseRunner] running step [DeleteRepo1]
+2019-07-31 22:39:34,746 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:34,747 INFO  [SoapUITestCaseRunner] running step [DeleteRepo1False]
+2019-07-31 22:39:34,959 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:34,960 INFO  [SoapUITestCaseRunner] running step [Delay 1]
+2019-07-31 22:39:35,962 INFO  [SoapUITestCaseRunner] running step [GetReposAfterDelete]
+2019-07-31 22:39:36,330 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:36,330 INFO  [SoapUITestCaseRunner] Assertion [ContainsRepo1] has status FAILED
+2019-07-31 22:39:36,330 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [Repository1] in Response
+2019-07-31 22:39:36,330 INFO  [SoapUITestCaseRunner] Assertion [ContainsRepo2] has status VALID
+2019-07-31 22:39:36,330 INFO  [SoapUITestCaseRunner] Assertion [ContainsRepo3] has status VALID
+2019-07-31 22:39:36,331 ERROR [SoapUITestCaseRunner] GetReposAfterDelete failed, exporting to [C:\app\testing\apitesting\githubtesting\target/surefire-reports/\TestSuite_1-CreateRepos-GetReposAfterDelete-0-FAILED.txt]
+2019-07-31 22:39:36,331 INFO  [SoapUITestCaseRunner] running step [DeleteRepo2Teardown]
+2019-07-31 22:39:36,668 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:36,669 INFO  [SoapUITestCaseRunner] running step [DeleteRepo3Teardown]
+2019-07-31 22:39:36,995 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:36,996 INFO  [SoapUITestCaseRunner] running step [Delay]
+2019-07-31 22:39:37,997 INFO  [SoapUITestCaseRunner] running step [GetReposFinal]
+2019-07-31 22:39:38,221 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2019-07-31 22:39:38,223 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CreateRepos], time taken: 8210ms, status: FAILED
+2019-07-31 22:39:38,227 INFO  [SoapUITestCaseRunner] Project [GitApiTesting] finished with status [FAILED] in 8537ms

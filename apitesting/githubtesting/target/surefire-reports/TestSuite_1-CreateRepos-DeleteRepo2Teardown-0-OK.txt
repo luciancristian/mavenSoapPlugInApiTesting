@@ -1,0 +1,56 @@
+Status: OK
+Time Taken: 334
+Size: 0
+Timestamp: Wed Jul 31 22:39:36 EEST 2019
+TestStep: DeleteRepo2Teardown
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: DELETE
+StatusCode: 204
+URL: https://api.github.com/repos/kasguzz2112/Repository2
+
+---------------- Request ---------------------------
+Authorization: [Bearer ffea65b2da0e750c66b8624624d442adf34c1c15]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+Content-Type: [application/json]
+
+DELETE https://api.github.com/repos/kasguzz2112/Repository2 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Bearer ffea65b2da0e750c66b8624624d442adf34c1c15
+Content-Length: 0
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Status: [204 No Content]
+X-Accepted-OAuth-Scopes: [delete_repo]
+Server: [GitHub.com]
+Access-Control-Allow-Origin: [*]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1564605506]
+Date: [Wed, 31 Jul 2019 19:39:37 GMT]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4980]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+Vary: [Accept-Encoding]
+X-RateLimit-Limit: [5000]
+#status#: [HTTP/1.1 204 No Content]
+X-XSS-Protection: [1; mode=block]
+X-OAuth-Scopes: [public_repo, admin:org, delete_repo]
+Content-Type: [application/octet-stream]
+X-GitHub-Request-Id: [EBC8:45945:53C11A:68EDA6:5D41EE79]

@@ -1,0 +1,64 @@
+Status: OK
+Time Taken: 631
+Size: 592
+Timestamp: Wed Jul 31 22:39:30 EEST 2019
+TestStep: GetStoreToken
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Username: kasguzz2112
+Encoding: UTF-8
+Method: POST
+StatusCode: 201
+URL: https://api.github.com/authorizations
+Password: Qwertyuiop1234%
+
+---------------- Request ---------------------------
+Authorization: [Basic a2FzZ3V6ejIxMTI6UXdlcnR5dWlvcDEyMzQl]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [163]
+Content-Type: [application/json;charset=UTF-8]
+
+POST https://api.github.com/authorizations HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic a2FzZ3V6ejIxMTI6UXdlcnR5dWlvcDEyMzQl
+Content-Length: 163
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+
+---------------- Response --------------------------
+Status: [201 Created]
+Server: [GitHub.com]
+Access-Control-Allow-Origin: [*]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1564605506]
+Date: [Wed, 31 Jul 2019 19:39:31 GMT]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4988]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: ["172898566ac0e01caa49a4f55ab0277e"]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding]
+X-RateLimit-Limit: [5000]
+#status#: [HTTP/1.1 201 Created]
+Content-Length: [592]
+X-XSS-Protection: [1; mode=block]
+Content-Type: [application/json; charset=utf-8]
+Location: [https://api.github.com/authorizations/313812381]
+X-GitHub-Request-Id: [EBC8:45945:53BB4E:68E63D:5D41EE73]
+
+{"id":313812381,"url":"https://api.github.com/authorizations/313812381","app":{"name":"Sample Access Token using API Call","url":"https://developer.github.com/v3/oauth_authorizations/","client_id":"00000000000000000000"},"token":"ffea65b2da0e750c66b8624624d442adf34c1c15","hashed_token":"a8b3bcbc98b39ac5001ec55d5ddc20de73e58cfb77a4a62e794d9cdc040dbd96","token_last_eight":"f34c1c15","note":"Sample Access Token using API Call","note_url":null,"created_at":"2019-07-31T19:39:31Z","updated_at":"2019-07-31T19:39:31Z","scopes":["public_repo","admin:org","delete_repo"],"fingerprint":"91823823"}

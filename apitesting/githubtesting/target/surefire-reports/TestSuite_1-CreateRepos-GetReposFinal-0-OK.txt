@@ -1,0 +1,57 @@
+Status: OK
+Time Taken: 221
+Size: 2
+Timestamp: Wed Jul 31 22:39:37 EEST 2019
+TestStep: GetReposFinal
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: GET
+StatusCode: 200
+URL: https://api.github.com/user/repos
+
+---------------- Request ---------------------------
+Authorization: [Bearer ffea65b2da0e750c66b8624624d442adf34c1c15]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://api.github.com/user/repos HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Bearer ffea65b2da0e750c66b8624624d442adf34c1c15
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Status: [200 OK]
+X-Accepted-OAuth-Scopes: []
+Server: [GitHub.com]
+Access-Control-Allow-Origin: [*]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1564605506]
+Date: [Wed, 31 Jul 2019 19:39:39 GMT]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4978]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: ["6b776b6905347eb45c7593951bbd0fb2"]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding]
+X-RateLimit-Limit: [5000]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2]
+X-XSS-Protection: [1; mode=block]
+X-OAuth-Scopes: [public_repo, admin:org, delete_repo]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [EBC8:45945:53C2F0:68EE97:5D41EE79]
+
+[]
